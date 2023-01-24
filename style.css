@@ -1,0 +1,43 @@
+body{
+    background: #96a6ff;
+}
+
+/**/
+.PacMan{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5px;
+    left: 5px;
+    /*background: white;*/
+    overflow: hidden;
+}
+.PacMan_spritesheet{
+    animation: moveSpritesheet 1s steps(3) infinite;
+    position: absolute;
+}
+.Labirynth{
+    position: relative;
+    width: 228px;
+    height: 248px;
+    background: white;
+    overflow: hidden;
+}
+.going-left{
+    top: -16px;
+}
+.going-up{
+    top: -32px;
+}
+.going-down{
+    top: -48px;
+}
+@keyframes moveSpritesheet {
+    from{
+        transform: translate3d(0px,0,0)
+    }
+    to{
+        transform: translate3d(-100%,0,0)
+    }
+    
+}
