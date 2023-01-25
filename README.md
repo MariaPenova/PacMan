@@ -1,3 +1,14 @@
+# 25 January
+
+* DONE
+  * Swiched to the sprite sheet with trancparancy 
+    * Figured out that is better to use the sprite sheet wich does not contain the PacMan Labirynth with the dots because we would have to eventually remove the dots in the course of development of the game
+  * Cleaned up the unnecessary files  
+* DOs
+  * Make the PacMan move 
+    * See how to read the keyboard (use the arrows)
+    * See how to move the PacMan based on the pressed key
+
 # 24 January
 
 * DONE
