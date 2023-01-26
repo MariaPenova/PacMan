@@ -1,3 +1,21 @@
+# 26 January
+  * DONE
+    * Tried to crop a specific portion of the sprite sheet (in particular the PacMan character) with the following functions and neighter of them did the exact thing I'm needing:
+      * Clip() 
+      * Clip-path()
+        * Clip-path: inset()
+        * Clip-path: polygon
+      * Object-fit()
+      * Object-position()
+      * Transform: scale()
+  * DOs
+    * Make the PacMan move 
+    * See how to read the keyboard (use the arrows)
+    * See how to move the PacMan based on the pressed key
+
+
+
+
 # 25 January
 
 * DONE
