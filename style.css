@@ -1,17 +1,6 @@
 body{
     background: #96a6ff;
 }
-
-
-
-
-/*         
-.PacMan_spritesheet{
-    animation: moveSpritesheet 1s steps(3) infinite;
-    position: absolute;
-}
-*/
-
 .Labirynth{
     /*Showing the Labirybth*/
     position: relative;
@@ -19,23 +8,36 @@ body{
     height: 248px;
     background: white;
     overflow: hidden;
+    z-index: 0;
+}
+
+.PacMan img{
+    position: absolute;
+    clip:rect(0px,244px,16px,229px);
+    top: 13px;
+    left: -214px;
+    z-index: 1;
+}
+      
+.PacMan_spritesheet{
+
+    animation: moveSpritesheet 1s steps(3) infinite;
+    position: absolute;
 }
 
 
-.PacMan {
-    /* If we type the following it is showing the characters --> margin: 0px 16px 16px -228px;*/
-    position: inherit;
-    width: 50px;
-    height: 65px;
-   margin-left: -227px;
-
-
-    overflow: hidden;
-        }
-
 
 /*
- going-left{
+.PacMan {
+    position: absolute;
+    clip:rect(0px,276px,64px,229px);
+    top: 13px;
+    left: -214px;
+    z-index: 1;  
+}
+
+*/
+ .going-left{
     top: -16px;
 }
 .going-up{
@@ -53,4 +55,4 @@ body{
     }
     
 }
-*/
+
