@@ -1,3 +1,11 @@
+# 30 January
+   * DONE
+    * Investigated moving png with css and html 
+    * Tried several approaches to make the pacMan move with no JavaScript but only css and html
+      * There I have a several errors which I'm going to investigate further more tomorrow
+    * Still stuck in if I am able to use the clipped part as a separate png so I can give to it width and height and make the animation looks like the character is moving on specific directions? (I want to use the clipped part as a separate image and choose which portions of the image to be shown and which to be with the property overflow: hidden;)
+
+
 # 27 January
    * DONE
      * Clipped the exact portion of the sprite sheet which I needed using clip: rect() with a few adjustments

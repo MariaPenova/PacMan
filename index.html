@@ -6,13 +6,56 @@
         
     </head>
     <body>
-        
+        <span id="ps"></span>
         <div class="Labirynth">
             <img class="Labirynth_spritesheet" src="D:\SoftwareDevelopment\GitHub\MariaPenova\PacMan\transperent-sprite-sheet.png" alt="Labirynth">
         </div>
         <div class="PacMan">
             <img class="PacMan_spritesheet going-left" src="D:\SoftwareDevelopment\GitHub\MariaPenova\PacMan\transperent-sprite-sheet.png" alt="CharacterOnly">
         </div>
+    <script>
+        var moveX = 0, moveY = 0;
+        const speed = 10;
+        var w = document.body.clientWidth; var h = document.body.clientHeight;
+        var view_W = w -110; var view_H = h-100;
+        window.addEventListener("keydown",Control);
+        function Control(){
+            let key = event.key;
+            let pos = document.getElementById('pos');
+            let PacMan = document.getElementsByClassName('PacMan');
+
+            if(key == "ArrowUp"&& moveY<view_H)
+            {
+                moveY = moveY + speed;
+                PacMan.style.bottom = moveY + "px";
+                PacMan.style.left = moveX + "px";
+                pos.innerHTML = "X:" + moveX + "Y" + moveY;
+            }
+            else if(key == "ArrowDown"&& moveY >0)
+            {
+                moveY = moveY - speed;
+                PacMan.style.bottom = moveY + "px";
+                pos.innerHTML = "X:" + moveX + "Y" + moveY;
+            }
+            else if(key == "ArrowLeft"&& moveX >0)
+            {
+                moveX = moveX - speed;
+                PacMan.style.bottom = moveX + "px";
+                pos.innerHTML = "X:" + moveX + "Y" + moveY;
+            }
+            else if(key == "ArrowRight"&& moveX < view_W)
+            {
+                moveY = moveY + speed;
+                PacMan.style.bottom = moveX + "px";
+                pos.innerHTML = "X:" + moveX + "Y" + moveY;
+            }
+            else
+            { 
+                PacMan.style.left = moveX + "px";
+                PacMan.style.bottom = moveY + "px"
+            }
+        }
+    </script>
 
     </body>
 </html>
