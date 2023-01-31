@@ -19,11 +19,11 @@ body{
     z-index: 1;
 }
       
-.PacMan_spritesheet{
+ .PacMan_spritesheet{
 
     animation: moveSpritesheet 1s steps(3) infinite;
     position: absolute;
-}
+} 
 
 
 
@@ -37,7 +37,7 @@ body{
 }
 
 */
- .going-left{
+ /* .going-left{
     top: -16px;
 }
 .going-up{
@@ -45,7 +45,7 @@ body{
 }
 .going-down{
     top: -48px;
-}
+} */
 @keyframes moveSpritesheet {
     from{
         transform: translate3d(0px,0,0)

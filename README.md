@@ -1,9 +1,26 @@
+# 31 January
+  * DONE 
+    * Moved the script in separate JavaScript file
+      * An error occurred where the word "event" which I'm using in my code is scratched
+      * Investigated it and found out that it is happaning beacuse I've named my variable after an 'event' so I changed it 
+    * Linked the js, html and css files to one another
+    * Fixed my code for moving the PacMan based on pressed arrow key
+    * Also made the PacMan able to move throw the whole sprites heet
+  * DO's
+      * Read about game loop https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
+      * Insert animation to the pacMan
+
+
+
 # 30 January
    * DONE
     * Investigated moving png with css and html 
     * Tried several approaches to make the pacMan move with no JavaScript but only css and html
       * There I have a several errors which I'm going to investigate further more tomorrow
     * Still stuck in if I am able to use the clipped part as a separate png so I can give to it width and height and make the animation looks like the character is moving on specific directions? (I want to use the clipped part as a separate image and choose which portions of the image to be shown and which to be with the property overflow: hidden;)
+    * DO's
+      * JavaScript in separate file
+      * Read about game loop https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
 
 
 # 27 January
