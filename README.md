@@ -1,3 +1,16 @@
+# 1 Feberuary 
+  * DONE
+    * Read about game loop https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
+      * Read more about game loop online     
+    * Managed to select and crop different portions of the PacMan character using JavaScript
+    * Couldn't crate game loop 
+      * Find out how to change the view of the charachter when one of the arrow key is pressed 
+        * Also find how to add a seconds for doing this 
+        * But still can not figer it out how can I make the movement smooth beacuse it is curently jumping from position 1 to position 3 without showing position 2
+  * DO's
+    * Insert animation to the pacMan
+  
+
 # 31 January
   * DONE 
     * Moved the script in separate JavaScript file

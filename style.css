@@ -14,11 +14,12 @@ body{
 .PacMan img{
     position: absolute;
     clip:rect(0px,244px,16px,229px);
+    /* (top, left, height,width*/
     top: 13px;
     left: -214px;
     z-index: 1;
 }
-      
+/*      
  .PacMan_spritesheet{
 
     animation: moveSpritesheet 1s steps(3) infinite;
