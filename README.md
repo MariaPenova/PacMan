@@ -1,12 +1,20 @@
+# 2 Feberuary 
+  * DONE
+    * Created game loop (setInterval) which is executing itself every 100ms
+      * I've managed to put animations by using some "if" conditions for changing the clipped portions of the character
+       * Also I'm thinking that we should not use the "clip" function for displaying a specific portion of our png becouse the function is croping specific part and is showing only the part noting else and when I apply animations on the portions which are clipped the charchter is looking as if it is going on some direction without pressing any key
+  * DO's
+    * Fix the animations
+
 # 1 Feberuary 
   * DONE
     * Read about game loop https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
-      * Read more about game loop online     
+       * Read more about game loop online     
     * Managed to select and crop different portions of the PacMan character using JavaScript
     * Couldn't crate game loop 
       * Find out how to change the view of the charachter when one of the arrow key is pressed 
         * Also find how to add a seconds for doing this 
-        * But still can not figer it out how can I make the movement smooth beacuse it is curently jumping from position 1 to position 3 without showing position 2
+        * But still can not figure it out how can I make the movement smooth because it is currently jumping from position 1 to position 3 without showing position 2
   * DO's
     * Insert animation to the pacMan
   
