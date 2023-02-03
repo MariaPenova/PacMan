@@ -13,11 +13,16 @@ body{
 
 .PacMan img{
     position: absolute;
-    clip:rect(0px,244px,16px,229px);
-    /* (top, left, height,width*/
-    top: 13px;
-    left: -214px;
     z-index: 1;
+    top: 14px;
+    left: 14px;
+    object-fit: none;
+    /* put the default position at pacman facing right */
+    object-position: left -229px top 0;
+    /* make the width and height the same as the pacman's from the image */
+    width: 16px;
+    height: 16px;
+  
 }
 /*      
  .PacMan_spritesheet{

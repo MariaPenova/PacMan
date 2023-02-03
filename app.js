@@ -26,7 +26,7 @@ function Control(pressed) {
 
     PacMan.style.left = moveX + "px";
     PacMan.style.top = moveY + "px"
-    pos.innerHTML = "X:" + moveX + "Y" + moveY;
+    //pos.innerHTML = "X:" + moveX + "Y" + moveY;
     // setInterval(function(){ 
     //     //code goes here that will be run every 5 seconds. 
     //     PacMan.style.clip = "rect(0px,244px,16px,229px)"  
@@ -36,21 +36,21 @@ function Control(pressed) {
 
 
 }
-var state = 0; //
-setInterval(function () {
-    state++;
+// var state = 0; //
+// setInterval(function () {
+//     state++;
 
-    if (state > 2) {
-        state = 0;
-    }
-    if (state == 0){
-        PacMan.style.clip = "rect(0px,244px,16px,229px)" 
-    }
-    if (state == 1){
-    PacMan.style.clip = "rect(0px, 260px, 16px, 245px)"
-    }
-    if (state == 2){
-    PacMan.style.clip = "rect(0px, 276px, 16px, 261px)"
-    }
+//     if (state > 2) {
+//         state = 0;
+//     }
+//     if (state == 0){
+//         PacMan.style.clip = "rect(0px,244px,16px,229px)" 
+//     }
+//     if (state == 1){
+//     PacMan.style.clip = "rect(0px, 260px, 16px, 245px)"
+//     }
+//     if (state == 2){
+//     PacMan.style.clip = "rect(0px, 276px, 16px, 261px)"
+//     }
 
-}, 100)
+// }, 100)
