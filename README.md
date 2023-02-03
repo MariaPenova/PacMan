@@ -1,3 +1,10 @@
+# 3 Feberuary 
+  * DONE
+    * Applied animations to the PacMan
+      * Now the character is animated with a specific (skin/movements) based on the diraction he is moving
+    * The function 'clip' did not help me so I've exchanged it for 'object-position'
+    * Every change is pushed to GitHub
+
 # 2 Feberuary 
   * DONE
     * Created game loop (setInterval) which is executing itself every 100ms

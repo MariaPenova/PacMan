@@ -1,8 +1,9 @@
 let PacMan = document.getElementById('pacman');
-var moveX = -226, moveY = 0;
+var moveX = 14, moveY = 13;
+var position;
 const speed = 1;
 var w = document.body.clientWidth; var h = document.body.clientHeight;
-var view_W = w - 110; var view_H = h + 7;
+var view_W = w - 110; var view_H = h - 1;
 window.addEventListener("keydown", Control);
 function Control(pressed) {
     let key = pressed.key;
@@ -11,46 +12,81 @@ function Control(pressed) {
 
     if (key == "ArrowUp" && moveY > 0) {
         moveY = moveY - speed;
+        position = 'goingUp'
     }
     else if (key == "ArrowDown" && moveY < view_H) {
         moveY = moveY + speed;
+        position = 'goingDown'
     }
     else if (key == "ArrowLeft" && moveX > -226) {
         moveX = moveX - speed;
+        position = 'goingLeft'
     }
     else if (key == "ArrowRight" && moveX < view_W) {
         moveX = moveX + speed;
+        position = 'goingRight'
 
 
     }
 
     PacMan.style.left = moveX + "px";
-    PacMan.style.top = moveY + "px"
-    //pos.innerHTML = "X:" + moveX + "Y" + moveY;
-    // setInterval(function(){ 
-    //     //code goes here that will be run every 5 seconds. 
-    //     PacMan.style.clip = "rect(0px,244px,16px,229px)"  
-    //     PacMan.style.clip = "rect(0px, 260px, 16px, 245px)"
-    //     PacMan.style.clip = "rect(0px, 276px, 16px, 261px)"  
-    // }, 1000);
-
-
+    PacMan.style.top = moveY + "px";
+    
 }
-// var state = 0; //
-// setInterval(function () {
-//     state++;
+var state = 0; //
+setInterval(function () {
+    state++;
+    if (state > 2) {
+        state = 0;
+    }
+    switch (position) {
+        case 'goingRight':
+            if (state == 0) {
+                PacMan.style.objectPosition = "left -229px top 0px"
+            }
+            if (state == 1) {
+                PacMan.style.objectPosition = "left -245px top 0px"
+            }
+            if (state == 2) {
+                PacMan.style.objectPosition = "left -261px top 0px"
+            }
+            break;
+        case 'goingLeft':
+            if (state == 0) {
+                PacMan.style.objectPosition = "left -229px top -16px"
+            }
+            if (state == 1) {
+                PacMan.style.objectPosition = "left -245px top -16px"
+            }
+            if (state == 2) {
+                PacMan.style.objectPosition = "left -261px top -16px"
+            }
+            break;
+        case 'goingUp':
+            if (state == 0) {
+                PacMan.style.objectPosition = "left -229px top -32px"
+            }
+            if (state == 1) {
+                PacMan.style.objectPosition = "left -245px top -32px"
+            }
+            if (state == 2) {
+                PacMan.style.objectPosition = "left -261px top -32px"
+            }
+            break;
 
-//     if (state > 2) {
-//         state = 0;
-//     }
-//     if (state == 0){
-//         PacMan.style.clip = "rect(0px,244px,16px,229px)" 
-//     }
-//     if (state == 1){
-//     PacMan.style.clip = "rect(0px, 260px, 16px, 245px)"
-//     }
-//     if (state == 2){
-//     PacMan.style.clip = "rect(0px, 276px, 16px, 261px)"
-//     }
+        case 'goingDown':
+            if (state == 0) {
+                PacMan.style.objectPosition = "left -229px top -48px"
+            }
+            if (state == 1) {
+                PacMan.style.objectPosition = "left -245px top -48px"
+            }
+            if (state == 2) {
+                PacMan.style.objectPosition = "left -261px top -48px"
+            }
+            break;
+    }
 
-// }, 100)
+
+
+}, 100)

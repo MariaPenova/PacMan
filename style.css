@@ -2,7 +2,6 @@ body{
     background: #96a6ff;
 }
 .Labirynth{
-    /*Showing the Labirybth*/
     position: relative;
     width: 226px;
     height: 248px;
@@ -14,51 +13,13 @@ body{
 .PacMan img{
     position: absolute;
     z-index: 1;
-    top: 14px;
+    top: 13px;
     left: 14px;
     object-fit: none;
-    /* put the default position at pacman facing right */
     object-position: left -229px top 0;
-    /* make the width and height the same as the pacman's from the image */
     width: 16px;
     height: 16px;
   
 }
-/*      
- .PacMan_spritesheet{
 
-    animation: moveSpritesheet 1s steps(3) infinite;
-    position: absolute;
-} 
-
-
-
-/*
-.PacMan {
-    position: absolute;
-    clip:rect(0px,276px,64px,229px);
-    top: 13px;
-    left: -214px;
-    z-index: 1;  
-}
-
-*/
- /* .going-left{
-    top: -16px;
-}
-.going-up{
-    top: -32px;
-}
-.going-down{
-    top: -48px;
-} */
-@keyframes moveSpritesheet {
-    from{
-        transform: translate3d(0px,0,0)
-    }
-    to{
-        transform: translate3d(-100%,0,0)
-    }
-    
-}
 
