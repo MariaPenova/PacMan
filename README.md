@@ -1,4 +1,14 @@
+# 13 Feberuary 
+
+  * DONE
+    * Investigated how can I make the PacMan move only in the labyrinth 
+    * Want for the character to know where are walls and paths so he can move correctly - when there is a wall on his right to know that he can move only up, right and down
+    * My opinion is that these things can happen with arrays 
+      * I want somehow to create an invisible array with exact sizes of the PacMan labirynth 
+      * Then to say which parts of this array are walls of the labyrinth so the character can not pass throw them
+
 # 3 Feberuary 
+
   * DONE
     * Applied animations to the PacMan
       * Now the character is animated with a specific (skin/movements) based on the diraction he is moving
@@ -6,6 +16,7 @@
     * Every change is pushed to GitHub
 
 # 2 Feberuary 
+
   * DONE
     * Created game loop (setInterval) which is executing itself every 100ms
       * I've managed to put animations by using some "if" conditions for changing the clipped portions of the character
@@ -14,6 +25,7 @@
     * Fix the animations
 
 # 1 Feberuary 
+
   * DONE
     * Read about game loop https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
        * Read more about game loop online     
@@ -27,6 +39,7 @@
   
 
 # 31 January
+
   * DONE 
     * Moved the script in separate JavaScript file
       * An error occurred where the word "event" which I'm using in my code is scratched
@@ -41,6 +54,7 @@
 
 
 # 30 January
+
    * DONE
     * Investigated moving png with css and html 
     * Tried several approaches to make the pacMan move with no JavaScript but only css and html
@@ -52,6 +66,7 @@
 
 
 # 27 January
+
    * DONE
      * Clipped the exact portion of the sprite sheet which I needed using clip: rect() with a few adjustments
         * Added animation to it
@@ -64,6 +79,7 @@
       * Make the PacMan move 
 
 # 26 January
+
   * DONE
     * Tried to crop a specific portion of the sprite sheet (in particular the PacMan character) with the following functions and neither of them did the exact thing I'm needing:
       * Clip() 
