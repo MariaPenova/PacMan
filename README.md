@@ -1,3 +1,12 @@
+# 14 Feberuary 
+
+  * DONE
+    * Read about arrays 
+      * Functions which can be used in any type of JavaScript array
+      * 2D arrays - array of arrays
+    * Theoretically know how I want and can move the PacMan in the labyrinth - practically have no idea how to do it - so I will investigate further options.
+
+
 # 13 Feberuary 
 
   * DONE
