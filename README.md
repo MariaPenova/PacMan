@@ -1,3 +1,9 @@
+# 15 Feberuary 
+
+  * DONE
+    * Searched for alternative approaches for how to move the character through out the labyrinth 
+      * Found that I can use Canvas but it is specifically said in the document linked below that I should not use it - so I need some help with this function. https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
+
 # 14 Feberuary 
 
   * DONE
@@ -14,7 +20,7 @@
     * Want for the character to know where are walls and paths so he can move correctly - when there is a wall on his right to know that he can move only up, right and down
     * My opinion is that these things can happen with arrays 
       * I want somehow to create an invisible array with exact sizes of the PacMan labirynth 
-      * Then to say which parts of this array are walls of the labyrinth so the character can not pass throw them
+      * Then to say which parts of this array are walls of the labyrinth so the character can not pass through them
 
 # 3 Feberuary 
 
@@ -55,7 +61,7 @@
       * Investigated it and found out that it is happaning beacuse I've named my variable after an 'event' so I changed it 
     * Linked the js, html and css files to one another
     * Fixed my code for moving the PacMan based on pressed arrow key
-    * Also made the PacMan able to move throw the whole sprites heet
+    * Also made the PacMan able to move through the whole sprites heet
   * DO's
       * Read about game loop https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
       * Insert animation to the pacMan
