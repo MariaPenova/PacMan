@@ -1,3 +1,21 @@
+# 20 Feberuary 
+
+  * DONE
+    * Started putting the dots in the labyrinth - investigated the ways of how I can do it 
+      * Cropped the dot with the css and then cloned it by using the function cloneNode() and changing its coordinates 
+      * I cloned a several dots but to put all of them on the labyrinth I will have to use a for loop not just adding them manually - so I will do this tomorrow 
+
+# 17 Feberuary 
+
+  * DONE
+    * After further investigation I had something new on my mind
+      * I thought that for the Pacman to differ walls and paths I can give it the opportunity of on which coordinates it can move and which coordinates are forbidden - but I do not know how to make this 
+      
+# 16 Feberuary 
+
+  * DONE
+    * Continued investigating how can I make the Pacman differ walls and paths - theoretically I have an idea but practically can not and do not know how to realize this idea
+
 # 15 Feberuary 
 
   * DONE

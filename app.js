@@ -1,3 +1,13 @@
+let dot = document.getElementsByClassName('Dot')[0]
+let clone = dot.cloneNode(true)
+clone.style = 'left: 25px; top: 10px;';
+dot.parentElement.appendChild(clone);
+
+clone = dot.cloneNode(true)
+clone.style = 'left: 30px; top: 10px;';
+dot.parentElement.appendChild(clone);
+
+
 let PacMan = document.getElementById('pacman');
 var moveX = 14, moveY = 13;
 var position;

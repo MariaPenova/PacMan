@@ -19,7 +19,17 @@ body{
     object-position: left -229px top 0;
     width: 16px;
     height: 16px;
-  
 }
+.Dot{
+    position: absolute;
+}
+.Dot img{
+    z-index: 2;
+    object-fit: none;
+    object-position: right -220px bottom 0;
+    width: 7px;
+    height: 8px;
+}
+
 
 
