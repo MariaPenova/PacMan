@@ -1,3 +1,9 @@
+# 21 Feberuary 
+
+  * DONE
+    * Created for loop for placing all the dots in the labyrinth 
+    * Placed all the mini dots and four of the big dots in the labyrinth (using specific px of where they should appear) as they appear in the following link - https://dahoum.wales/the-pacman-as-a-nursery-32ba07b282b1
+
 # 20 Feberuary 
 
   * DONE
