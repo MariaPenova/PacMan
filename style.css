@@ -20,6 +20,47 @@ body{
     width: 16px;
     height: 16px;
 }
+.RedGhost img{
+    position: absolute;
+    z-index: 4;
+    top: 120px;
+    left: 100px;
+    object-fit: none;
+    object-position: left -229px top -64px;
+    width: 16px;
+    height: 16px;
+
+}
+.PurpleGhost img{
+    position: absolute;
+    z-index: 4;
+    top: 120px;
+    left: 115px;
+    object-fit: none;
+    object-position: left -229px top -80px;
+    width: 16px;
+    height: 16px;
+}
+.TurquoiseGhost img{
+    position: absolute;
+    z-index: 4;
+    top: 120px;
+    left: 130px;
+    object-fit: none;
+    object-position: left -229px top -96px;
+    width: 16px;
+    height: 16px;
+}
+.OrangeGhost img{
+    position: absolute;
+    z-index: 4;
+    top: 120px;
+    left: 120px;
+    object-fit: none;
+    object-position: left -229px top -112px;
+    width: 16px;
+    height: 16px;
+}
 .Dot{
     position: absolute;
 }

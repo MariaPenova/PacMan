@@ -1,3 +1,8 @@
+# 22 Feberuary 
+
+  * DONE
+    * Cropped the ghost characters and placed them in the middle of the labyrinth 
+
 # 21 Feberuary 
 
   * DONE

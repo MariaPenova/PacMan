@@ -11,14 +11,10 @@ let coordinates = [
     [17, 50],
     [17, 58],
     [17, 66],
-
     [25, 66],
     [33, 66],
     [41, 66],
     [49, 66],
-
-
-
     [33, 10],
     [41, 10],
     [49, 10],
@@ -48,11 +44,8 @@ let coordinates = [
     [89, 162],
     [98, 162],
     [106, 162],
-
     [106, 170],
     [106, 178],
-
-
     [49, 162],
     [41, 162],
     [33, 162],
@@ -75,10 +68,6 @@ let coordinates = [
     [57, 194],
     [57, 202],
     [57, 210],
-
-
-
-
     [49, 210],
     [41, 210],
     [33, 210],
@@ -242,14 +231,6 @@ let coordinates = [
     [201, 66],
     [193, 66],
     [185, 66],
-
-
-
-
-
-
-
-
     [65, 10],
     [73, 10],
     [81, 10],
@@ -371,7 +352,7 @@ function Control(pressed) {
     PacMan.style.top = moveY + "px";
 
 }
-var state = 0; //
+var state = 0; 
 setInterval(function () {
     state++;
     if (state > 2) {
@@ -381,9 +362,17 @@ setInterval(function () {
         case 'goingRight':
             if (state == 0) {
                 PacMan.style.objectPosition = "left -229px top 0px"
+               // RedGhost.style.objectPosition = "left -229px top -64px"
+               // PurpleGhost.style.objectPosition = "left -229px top -80px"
+               //TurquoiseGhost.style.objectPosition = "left -229px top -96px"
+                //OrangeGhost.style.objectPosition = "left -229px top -112px"
             }
             if (state == 1) {
                 PacMan.style.objectPosition = "left -245px top 0px"
+                //RedGhost.style.objectPosition = "left -245px top -64px"
+                // PurpleGhost.style.objectPosition = "left -245px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -245px top -96px"
+                //OrangeGhost.style.objectPosition = "left -245px top -112px"
             }
             if (state == 2) {
                 PacMan.style.objectPosition = "left -261px top 0px"
@@ -392,9 +381,17 @@ setInterval(function () {
         case 'goingLeft':
             if (state == 0) {
                 PacMan.style.objectPosition = "left -229px top -16px"
+                //RedGhost.style.objectPosition = "left -261px top -64px"
+                // PurpleGhost.style.objectPosition = "left -261px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -261px top -96px"
+                //OrangeGhost.style.objectPosition = "left -261px top -112px"
             }
             if (state == 1) {
                 PacMan.style.objectPosition = "left -245px top -16px"
+                //RedGhost.style.objectPosition = "left -277px top -64px"
+                // PurpleGhost.style.objectPosition = "left -277px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -277px top -96px"
+                //OrangeGhost.style.objectPosition = "left -277px top -112px"
             }
             if (state == 2) {
                 PacMan.style.objectPosition = "left -261px top -16px"
@@ -403,9 +400,17 @@ setInterval(function () {
         case 'goingUp':
             if (state == 0) {
                 PacMan.style.objectPosition = "left -229px top -32px"
+                //RedGhost.style.objectPosition = "left -293px top -64px"
+                // PurpleGhost.style.objectPosition = "left -293px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -293px top -96px"
+                //OrangeGhost.style.objectPosition = "left -293px top -112px"
             }
             if (state == 1) {
                 PacMan.style.objectPosition = "left -245px top -32px"
+                //RedGhost.style.objectPosition = "left -309px top -64px"
+                // PurpleGhost.style.objectPosition = "left -309px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -309px top -96px"
+                //OrangeGhost.style.objectPosition = "left -309px top -112px"
             }
             if (state == 2) {
                 PacMan.style.objectPosition = "left -261px top -32px"
@@ -415,9 +420,17 @@ setInterval(function () {
         case 'goingDown':
             if (state == 0) {
                 PacMan.style.objectPosition = "left -229px top -48px"
+                //RedGhost.style.objectPosition = "left -325px top -64px"
+                // PurpleGhost.style.objectPosition = "left -325px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -325px top -96px"
+                //OrangeGhost.style.objectPosition = "left -325px top -112px"
             }
             if (state == 1) {
                 PacMan.style.objectPosition = "left -245px top -48px"
+                //RedGhost.style.objectPosition = "left -341px top -64px"
+                //PurpleGhost.style.objectPosition = "left -341px top -80px"
+                //TurquoiseGhost.style.objectPosition = "left -341px top -96px"
+                //OrangeGhost.style.objectPosition = "left -341px top -112px"
             }
             if (state == 2) {
                 PacMan.style.objectPosition = "left -261px top -48px"
